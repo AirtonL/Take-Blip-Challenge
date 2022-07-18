@@ -1,0 +1,26 @@
+{
+  "name": "Take-Blip-Challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AirtonL/Take-Blip-Challenge.git",
+  "author": "Airton <junynnhoh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon Api/index.js",
+    "test:dev": "mocha Api/test/unit/**/*.js",
+    "test:coverage": "nyc --all --include Api/services --include Api/controllers mocha Api/tests/unit/*.js --exit"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "sinon": "^14.0.0"
+  }
+}
