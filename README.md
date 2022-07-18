@@ -11,7 +11,7 @@ Pode verificar a API diretamente no [Heroku](https://apitakechallenge.herokuapp.
 - Axios
 - Express
 
-# Para tester aplicação
+# Para testar a aplicação
 
 - Chai
 - Mocha
